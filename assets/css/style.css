@@ -1,0 +1,75 @@
+.puppies {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.puppy {
+    border: 1px solid #586a58;
+    height: 160px;
+    width: 180px;
+
+}
+
+img {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    color: #a5592a;
+}
+
+#winLabel {
+    border: solid 1px brown;
+    width: 180px;
+    color: green;
+    text-align: center;
+
+}
+
+#losslabel {
+    border: solid 1px brown;
+    width: 180px;
+    color: red;
+    text-align: center;
+
+}
+
+#random-result {
+    border: solid 1px brown;
+    width: 180px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+
+
+}
+
+#tally {
+    border: solid 1px brown;
+    width: 180px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.instructions {
+    text-align: left;
+    margin-left: 15px;
+
+}
+.steps {
+    text-align: left;
+}
+
+.numbers {
+    align-items: center;
+    margin:  0 auto;
+    display: inline;
+}
